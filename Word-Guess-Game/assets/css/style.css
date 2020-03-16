@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/exclusive_paper.png);
+    font-family: "Helvetica", "Arial", "sans-serif";
+    font-size: 18px;
+    min-width: 480px;
+}
+
+/* Header */
+
+header {
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+#hrHeader {
+    border-top: 2px solid black;
+}
+
+#logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60%;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Page content */
+
+.container {
+    padding: 20px;
+    min-width: 460px;
+    max-width: 85%;
+}
+
+.winner {
+    background-color: lightcoral;
+}
+
+#main {
+    justify-content: space-around;
+}
+
+/* Row One */
+
+.row {
+    margin: auto;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+}
+
+.col {
+    background-color: rgb(173, 216, 230, .3);
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 450px;
+    min-width: 430px;
+    box-shadow: 8px 8px 5px grey;
+}
+
+#colOne {
+    align-items: center;
+}
+
+#pageImage {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#colTwo {
+    max-width: 280px;
+    justify-content: space-evenly;
+}
+
+/* #colThree {
+
+} */
+
+#randomWord {
+    letter-spacing: 8px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#lettersGuessed {
+    letter-spacing: 8px;
+    font-size: 20px;
+    justify-content: center;
+}

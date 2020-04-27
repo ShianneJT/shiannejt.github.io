@@ -1,3 +1,42 @@
 * {
     box-sizing: border-box;
   }
+
+.container {
+  padding: 40px;
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+.project {
+height: 300px;
+width: 390px;
+}
+
+.btn {
+  background-color: #23a6d5;
+  color: white;
+}
+
+.parallax {
+  /* The image used  */
+  background-image: url('../images/test-bg.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: auto;
+}
+
+.section-title {
+  margin: auto;
+  padding: auto;
+}

@@ -1,18 +1,38 @@
-* {
-    box-sizing: border-box;
-  }
 
-.container {
+/* Header */
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/test-bg.jpg");
+
+  /* Set a specific height */
+  height: 250px;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Section Headers */ 
+#pHeader {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About */
+
+#about-content {
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding: 40px;
-}
-
-.fas {
-  margin-right: 10px;
-}
-
-.project {
-height: 300px;
-width: 390px;
+  height: 400px;
+  background-color: lightgrey;
 }
 
 .btn {
@@ -20,23 +40,38 @@ width: 390px;
   color: white;
 }
 
-.parallax {
-  /* The image used  */
-  background-image: url('../images/test-bg.jpg');
-
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  padding: auto;
+.fas {
+  margin-right: 10px;
 }
 
-.section-title {
-  margin: auto;
-  padding: auto;
+/* Projects */
+
+#project-content {
+  padding: 60px;
 }
+
+.project-img {
+  height: 300px;
+  width: 390px;
+}
+
+/* Contact */
+
+#contact {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 40px;
+  background-color: lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+

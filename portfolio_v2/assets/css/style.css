@@ -46,14 +46,21 @@
 
 /* Projects */
 
+.card {
+  margin: 5px;
+}
+
+/*
+
+
 #project-content {
   padding: 60px;
 }
 
-.project-img {
+ .project-img {
   height: 300px;
   width: 390px;
-}
+} */
 
 /* Contact */
 

@@ -1,4 +1,14 @@
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.listItem {
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: Mediumslateblue;
+}
+
 /* Header */
 
 .parallax {

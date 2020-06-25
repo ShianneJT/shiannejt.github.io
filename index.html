@@ -3,49 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a5bfd812ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a5bfd812ad.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Shianne Taylor</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/gradient.css">
+    <title>Shianne Taylor || Full Stack Web Developer</title>
 </head>
+<body>
 
-<body>    
-    <div class="wrapper">
-    <header class="clearfix">
-        <div class="container">
-            <h1>Shianne</h1>
-            <nav>
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
+<!-- Header -->
+<header class="gradient-header">
+    <h1 class="text-light">Shianne Taylor</h1>
+    <h2 class="text-light">Full Stack Web Developer</h2>
+</header>
 
-    <div class="container">
-        <section id="content" class="clearfix">
-            <h2>About Me</h2>
-            <hr>
-            <img id="bio-image" src="assets/images/me.jpg" alt="Shianne holding an alligator">
-
-            <p>Cupcake ipsum dolor. Sit amet bonbon croissant. Jelly beans sugar plum wafer danish. Soufflé chocolate chocolate cake liquorice cookie powder.
-                Candy canes croissant bear claw chocolate cake chupa chups muffin. Cake jelly cotton candy jelly-o marzipan jelly caramels gummi bears cake.
-                Jelly-o gingerbread sweet roll cake dessert chupa chups. Muffin fruitcake pudding macaroon gummi bears chocolate cake halvah biscuit.
-                Wafer sugar plum muffin macaroon. Bonbon jujubes chocolate cake croissant chocolate bar.</p>
-
-            <p>
-                Pastry oat cake pastry tiramisu. Sweet roll candy canes jelly beans jujubes tart. Pie danish pudding carrot cake bonbon.
-                Chocolate gingerbread dragée bonbon cake pie. Biscuit tootsie roll cake candy canes donut cake chocolate powder.
-                Candy canes tart biscuit powder toffee.</p>
-
-        </section>
+<!-- About header -->
+<div class="container-fluid parallax" id="pHeader">
+    <div class="section-header">
+        <h1>About</h1>
     </div>
-        <div class="push"></div>
-    </div>
-
-<div class="footer">
-    <footer>
-        <p style="text-align:center">Copyright ©</p>
-    </footer>
 </div>
+
+<!-- About content -->
+<div class="container content" id="about-content">
+    <div class="row align-items-start">
+        <div class="col-auto">
+            <img src="https://picsum.photos/200/300">
+        </div>
+        <div class="col">
+            <div class="row">
+                <p><strong>Work in progress (:</strong></p>
+                <p>Cupcake ipsum dolor sit amet sweet. Croissant sugar plum gummi bears tart soufflé topping topping. Cake icing sweet roll
+                    chocolate bar caramels pudding cheesecake. Chocolate tootsie roll wafer sweet roll danish oat cake tart pie.</p>
+
+                <p>Tiramisu jelly toffee powder dragée wafer bonbon. Marshmallow chocolate tart ice cream caramels pie cupcake.
+                    Halvah cake cheesecake sesame snaps apple pie cupcake wafer. Gingerbread cupcake jujubes jelly marshmallow macaroon
+                    topping oat cake pie.</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a class="btn" href="assets/shianne-resume.pdf" target="_blank" role="button"><i class="fas fa-download fa-1x"></i>DOWNLOAD RESUME</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Projects header -->
+<div class="container-fluid parallax" id="pHeader">
+    <div class="section-header">
+        <h1>Projects</h1>
+    </div>
+</div>
+
+<!-- Projects content -->
+<div class="container-fluid m-4" id="project-content">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+            <!-- Need image -->
+                <img class="card-img-top" src="assets/images/burger.png"> 
+                <span>Eat-Da-Burger!</span>
+            </div>
+            <div class="card-footer">
+                <a href="https://intense-inlet-73809.herokuapp.com" target="_blank">Deployed </a> --
+                <a href="https://github.com/ShianneJT/burger" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+            <!-- Need image -->
+                <img class="card-img-top" src="https://via.placeholder.com/338x188.png?text=Image+coming+soon!"> 
+                <span>FriendFinder</span>
+            </div>
+            <div class="card-footer">
+                <a href="https://boiling-everglades-95447.herokuapp.com" target="_blank">Deployed </a> --
+                <a href="https://github.com/ShianneJT/FriendFinder" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+            <!-- Need image -->
+                <img class="card-img-top" src="https://via.placeholder.com/338x188.png?text=Image+coming+soon!"> 
+                <span>Bamazon</span>
+            </div>
+            <div class="card-footer">
+                <a href="https://github.com/ShianneJT/bamazon" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+            <!-- Need image -->
+                <img class="card-img-top" src="https://via.placeholder.com/338x188.png?text=Image+coming+soon!"> 
+                <span>Liri Bot</span>
+            </div>
+            <div class="card-footer">
+                <a href="https://github.com/ShianneJT/liri-node-app" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+                <img class="card-img-top" src="assets/images/ssss.png"> 
+                <span>Stay Safe - Stay Sane</span>
+            </div>
+            <div class="card-footer">
+                <a href="https://celupanow.github.io/ssss/" target="_blank">Deployed</a> --
+                <a href="https://github.com/celupanow/ssss" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+                <img class="card-img-top" src="assets/images/train.png"> 
+                <span>Train Scheduler</span>
+            </div>
+            <div class="card-footer">
+                <a href="https://shiannejt.github.io/Train-Scheduler" target="_blank">Deployed </a> --
+                <a href="https://github.com/ShianneJT/Train-Scheduler" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+                <img class="card-img-top" src="assets/images/giftastic.png">
+                <span>Giftastic</span>
+            </div>
+            <div class="card-footer">
+                <a href="https://shiannejt.github.io/Giftastic" target="_blank">Deployed </a> --
+                <a href="https://github.com/ShianneJT/Giftastic" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+                <img class="card-img-top" src="assets/images/trivia.png">
+                <span>Star Wars Trivia</span>
+            </div>
+            <div class="card-footer">
+                <a href="https://shiannejt.github.io/TriviaGame" target="_blank">Deployed </a> --
+                <a href="https://github.com/ShianneJT/TriviaGame" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+                <img class="card-img-top" src="assets/images/powerup.png">
+                <span>Power-Up Collector</span>
+            </div>
+            <div class="card-footer">
+                <a href="https://shiannejt.github.io/unit-4-game" target="_blank">Deployed </a> --
+                <a href="https://github.com/ShianneJT/unit-4-game" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+                <img class="card-img-top" src="assets/images/hangman.png">
+                <span>Office Hangman</span>
+            </div>
+            <div class="card-footer">
+                <a href="https://shiannejt.github.io/Word-Guess-Game" target="_blank">Deployed </a> --
+                <a href="https://github.com/ShianneJT/Word-Guess-Game" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact header -->
+<div class="container-fluid parallax" id="pHeader">
+    <div class="section-header">
+        <h1>Contact</h1>
+    </div>
+</div>
+
+<!-- Contact content -->
+<div class="container" id="contact">
+    <ul class="list-group list-group-horizontal listItem">
+        <li class="list-group-item flex-item"><i class="fas fa-star fa-lg"></i>Shianne Taylor</li>
+        <li class="list-group-item flex-item"><i class="fas fa-envelope fa-lg"></i>shiannejt@gmail.com</li>
+        <li class="list-group-item flex-item"><i class="fas fa-mobile-alt fa-lg"></i>801-472-8594</li>
+    </ul>
+
+    <ul class="list-group list-group-horizontal listItem">
+        <li class="list-group-item"><a href="https://github.com/ShianneJT" target="_blank"><i class="fab fa-github fa-lg"></i></a>GitHub</li>
+        <li class="list-group-item"><a href="https://www.linkedin.com/in/shianne-t-938aba19a" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>LinkedIn</li>
+    </ul>
+
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>

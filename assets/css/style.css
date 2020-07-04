@@ -1,94 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{ 
+    font-family: 'Pacifico';
+    src: url('Pacifico.eot');
+    src: url('Pacifico.eot?#iefix') format('embedded-opentype'),
+        url('Pacifico.ttf') format('truetype'),
+        url('Pacifico.svg#webfont') format('svg');
+}
 
 body {
-  font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg.png) no-repeat center fixed;
+    background-size: cover;
+    color: white;
 }
 
-.listItem {
-  flex-wrap: wrap;
-  flex-direction: row;
-  color: Mediumslateblue;
+header {
+    width: 100%;
+    height: 100vh;
 }
 
-/* Header */
-
-.parallax {
-  /* The image used */
-  background-image: url("../images/test-bg.jpg");
-
-  /* Set a specific height */
-  height: 250px;
-  width: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.landing {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
 }
 
-/* Section Headers */ 
-#pHeader {
-  color: white;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.landing h1 {
+    font-family: 'Pacifico', Arial, sans-serif;
+    font-size: 12rem;
 }
 
-/* About */
+.landing h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-header {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: black 2px 2px 0px;
+    text-align: center;
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
 
 #about-content {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 40px;
-  height: 400px;
-  background-color: lightgrey;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: black 2px 2px 0px;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 240px;
+    width: 85%;
 }
 
 .btn {
-  background-color: #23a6d5;
-  color: white;
+    left: 50%;
+    right: 50%;
+    color: white;
+    display: block;
 }
 
-.fas {
-  margin-right: 10px;
+.btn:hover {
+    color: #c04c9f
 }
 
-/* Projects */
-
-.card {
-  margin: 5px;
+.tech-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 260px;
 }
 
-/*
-
-
-#project-content {
-  padding: 60px;
+.project-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding-bottom: 140px;
+    /* height: 100% */ 
 }
 
- .project-img {
-  height: 300px;
-  width: 390px;
-} */
-
-/* Contact */
-
-#contact {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 40px;
-  background-color: lightgrey;
+.project-card {
+    display: flex;
+    max-width: 485px;
+    margin: 8px;
 }
 
+.project-img {
+    max-width: 485px;
+}
 
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    /* background-color: rgb(28, 28, 57, 0.9); */
+    background-color: rgb(37, 27, 55, 0.9);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
 
+.project-card:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
 
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: black 2px 2px 0px;
+    position: absolute;
+    overflow: hidden;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 
+.link-live,
+    .link-git {
+    position: absolute;
+    padding: 8px;
+}
 
+.link-live {
+    bottom: 0;
+    right: 0;
+}
 
+.link-git {
+    bottom: 0;
+    left: 0;
+}
 
+a, a:active, a:visited {
+    color:white;
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: none;
+    color: #c04c9f;
+}
 
-
-
+#sticky-footer {
+    background-color: #251b37;
+    margin-top: 180px;
+}
